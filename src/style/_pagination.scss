@@ -1,10 +1,14 @@
 .pagination {
   display: flex;
   gap: 20px;
-  &__arrow-left {}
+  margin-top: 20px;
   
-  &__number {}
-
-  &__arrow-right {}
+  &__number {
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(27, 26, 23, 0.82);
+  }
 }
 

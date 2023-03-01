@@ -1,0 +1,16 @@
+  .socials {
+    &__list {
+      display: flex;
+      gap: 18px;
+    }
+    
+    &__link {
+      color: $socials;
+      transition: color 0.3s ease-in-out;
+      
+      &:hover {
+          color: $black;
+        }
+      }
+    }
+
