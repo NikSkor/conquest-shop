@@ -1,0 +1,30 @@
+.header {
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 25px 0;
+    align-items: center;
+  }
+  
+  &__logo {
+    width: 103px;
+    height: 26px;
+  }
+
+  &__shops-list {
+    display: flex;
+    gap: 23px;
+  }
+
+  &__shops-link {
+    color: $dark-gray;
+    width: 19px;
+    height: 16px;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $light-gray;
+    }
+  }
+}
+

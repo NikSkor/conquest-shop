@@ -1,0 +1,79 @@
+.unit {
+  position: relative;
+  
+  &:before {
+    content:'';
+    position: absolute;
+    display: block;
+    background-image: url('img/ellipse.svg');
+    width: 496px;
+    height: 945px;
+    background-position: center;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 13%;
+    z-index: -1;
+  }
+
+  &__price {
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: -8%;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 50px;
+      height: 1px;
+      background-color: $light-gray;
+      transform: translate(-50%, -50%);
+      top: 40%;
+      left: 150%;
+    }
+  }
+
+  &__text {
+    margin-right: 7px;
+
+  }
+
+  &__image {
+    width: 503px;
+    height: 804px;
+  }
+
+  &__diam {
+    position: absolute;
+    display: block;
+    transform: translate(-50%, 50%);
+    top: 79%;
+    left: 103%;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    min-width: 122px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 50px;
+      height: 1px;
+      background-color: $light-gray;
+      transform: translate(-50%, -50%);
+      top: 40%;
+      left: -35%;
+    }
+  }
+}

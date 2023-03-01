@@ -1,0 +1,68 @@
+.slider {
+  // background-color: #F7F5EF;
+  
+
+  &__block {
+    padding: 52px 80px;
+    background-image: url('img/bg.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: start;
+    
+  }
+
+  &__content {
+    display: flex;
+    gap: 69px;
+    margin-bottom: 20px;
+  }
+  
+  &__img {
+    display: block;
+    // margin-left: 80px;
+
+  }
+
+  &__content {}
+
+  &__title {
+    padding-top: 88px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    margin-bottom: 38px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 150%;
+    color: $btn-bg;
+    margin-bottom: 45px;
+    max-width: 380px;
+  }
+
+  &__btn {
+    background-color: #D4B098;
+    padding: 25px 38px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    color: $white;
+    text-transform: uppercase;
+
+    transition: background-color 0.3s ease-in-out;
+    
+    &:hover {
+      background-color: $light-gray;
+    }
+  }
+
+  &__pagination {}
+}
+
+
