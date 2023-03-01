@@ -1,0 +1,9 @@
+.footer {
+  background-color: $btn-bg;
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 67px 84px;
+  }
+}

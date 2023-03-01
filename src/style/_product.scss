@@ -1,0 +1,72 @@
+.product {
+  // position: relative;
+
+  &__title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(27, 26, 23, 0.82);
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+  
+  &__text {
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(27, 26, 23, 0.82);
+    padding-left: 10px;
+    // padding-bottom: 2px;
+    display: flex;
+    align-items: baseline;
+    // justify-content: space-between;
+    
+  }
+
+  &__price {
+    margin-right: 7px;
+  }
+
+  &__symbol {
+    width: 8px;
+    height: 10px;
+  }
+
+  &__image {
+    width: 313px;
+    height: 313px;
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: $dark-gray;
+    position: relative;
+    padding-left: 45px;
+    transition: color 0.3s ease-in-out;
+
+  &:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 1px;
+    background-color: $light-gray;
+    transform: translate(-50%, -50%);
+    bottom: 40%;
+    left: 11%;
+    }
+
+
+    &:hover {
+      color: $light-gray;
+    }
+  }
+}
+

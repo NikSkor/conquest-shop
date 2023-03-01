@@ -1,0 +1,31 @@
+.service {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 90px;
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    padding-top: 140px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: $dark-gray;
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    width: 376px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: $btn-bg;
+    margin-bottom: 119px;
+  }
+}
+
+
+

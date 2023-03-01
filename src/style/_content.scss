@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 118px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: $white;
+    margin-bottom: 32px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__item {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+

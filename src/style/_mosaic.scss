@@ -1,0 +1,38 @@
+.mosaic {
+  // display: flex;
+  // grid-template-areas:
+  //  'first third'
+  //  'second third'
+  //  ;
+  &__list {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    'first third'
+    'second third'
+    ;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+
+  }
+  
+  &__item {
+    &-first {
+      grid-area: first;
+    }
+    
+    &-second {
+      grid-area: second;
+    }
+
+    &-third {
+      grid-area: third;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+}
+
